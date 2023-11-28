@@ -2,4 +2,7 @@
 contact:
   name: John Doe
   address: 123 Noname street, City, Country
+  phone: 012 3456 789
+  email: johndoe@example.com
+  website: www.test.com    
 ---
