@@ -18,8 +18,8 @@ work:
     location: City3
 
 education:
-  institute: University
-  course: Bsc Science in Computing
-  years: 2010-2014
-  location: City1
+  - institute: University
+    course: Bsc Science in Computing
+    years: 2010-2014
+    location: City1
 ---

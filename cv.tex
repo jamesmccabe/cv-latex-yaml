@@ -1,15 +1,17 @@
 %% cv.tex
 %
+% Author: James McCabe
 %
+%
+% requires `cv-class.cls'
 
-\documentclass{article}
-
-
-
+\documentclass{cv-class}
 
 \begin{document}
 
-$contact.name$\\
+{\Large $contact.name$}\\
+\smallskip
+
 $contact.address$\\
 $contact.phone$\\
 $contact.email$\\
@@ -25,10 +27,12 @@ $work.location$\\
 $endfor$
 
 \section*{Education}
+$for(education)$
 $education.institute$\\
 $education.course$\\
 $education.years$\\
 $education.location$
+$endfor$
 
 \section*{Technical Skills}
 
