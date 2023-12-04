@@ -4,6 +4,9 @@
 %
 %
 
+%------------------------------------------------------------------------------
+% IDENTIFICATION
+%------------------------------------------------------------------------------
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{cv-class}[2023/12/04 CV LaTeX class]
 
@@ -14,7 +17,8 @@
 % PACKAGES
 %------------------------------------------------------------------------------
 
-\RequirePackage{geometry}
+\RequirePackage{geometry} % manually set page margins
+\RequirePackage{hyperref} % enable hyperlinks and pdf metadata
 
 % ------------------------------------------------------------------------------
 
