@@ -7,39 +7,31 @@
 
 \documentclass{cv-class}
 
-
-
 \begin{document}
 
 {\LARGE $contact.name$}\\
 \smallskip
 
 $contact.address$\\
-$contact.phone$\\
-$contact.email$\\
-$contact.website$\\
-$contact.github$
+Phone: $contact.phone$\\
+Email: $contact.email$\\
+Website: $contact.website$\\
+Github: $contact.github$
 
 \section*{Work Experience}
 $for(work)$
-$work.company$\\
-$work.jobtitle$\\
-$work.years$\\
-$work.location$\\
+\workentry{$work.company$}{$work.jobtitle$}{$work.location$}{$work.years$}
 $endfor$
 
 \section*{Education}
 $for(education)$
-$education.institute$\\
-$education.course$\\
-$education.years$\\
-$education.location$
+\educationentry{$education.institute$}{$education.course$}{$education.location$}{$education.years$}
 $endfor$
 
 \section*{Technical Skills}
-$skills.skill1$\\
-$skills.skill2$\\
-$skills.skill3$
+$for(skills)$
+$skills.type$: $skills.values$\\
+$endfor$
 
 \section*{Hobbies \& Interests}
 $hobbies$

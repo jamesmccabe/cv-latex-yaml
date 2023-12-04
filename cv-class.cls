@@ -28,3 +28,17 @@
 % prevent paragraph indentation
 \setlength{\parindent}{0pt}
 
+% new environment for education
+\newenvironment{workentry}[4]{
+  \textbf{#1} \hfill {#3}\\
+  \textit{#2} \hfill \textit{#4}\\
+  }{
+}
+
+% new environment for education
+\newenvironment{educationentry}[4]{
+  \textbf{#1} \hfill {#3}\\
+  \textit{#2} \hfill \textit{#4}\\
+  }{
+}
+
