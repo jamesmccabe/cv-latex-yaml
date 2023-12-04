@@ -12,13 +12,14 @@ work:
     jobtitle: Engineer
     years: 2016-2018
     location: City2
+    
   - company: Test Researcher Ltd
     jobtitle: Researcher
     years: 2014-2016
     location: City3
 
 education:
-  - institute: University
+  - institute: University of Test
     course: Bsc. Science in Computing
     years: 2010-2014
     location: City1
@@ -27,4 +28,6 @@ skills:
   skill1: TestA1, TestA2, TestA3
   skill2: TestB1, TestB2, TestB3
   skill3: TestC1, TestC2, TestC3
+
+hobbies: Hobbie1, Hobbie2, Hobbie3
 ---

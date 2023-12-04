@@ -11,7 +11,7 @@
 \ProvidesClass{cv-class}[2023/12/04 CV LaTeX class]
 
 % inherit class article
-\LoadClass{article}
+\LoadClass[a4paper]{article}
 
 %------------------------------------------------------------------------------
 % PACKAGES
@@ -27,3 +27,4 @@
 
 % prevent paragraph indentation
 \setlength{\parindent}{0pt}
+
