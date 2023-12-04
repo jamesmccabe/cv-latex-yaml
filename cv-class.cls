@@ -42,3 +42,8 @@
   }{
 }
 
+% new environment for skills
+\newenvironment{skillsentry}[2]{
+  \textbf{#1}: {#2}\\
+  }{
+}
