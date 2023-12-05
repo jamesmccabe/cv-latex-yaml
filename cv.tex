@@ -21,11 +21,21 @@ Github: $contact.github$
 \section*{Work Experience}
 $for(work)$
 \workentry{$work.company$}{$work.jobtitle$}{$work.location$}{$work.years$}
+$for(work.details)$
+\begin{itemize}
+  \item $work.details$
+\end{itemize}
+$endfor$
 $endfor$
 
 \section*{Education}
 $for(education)$
 \educationentry{$education.institute$}{$education.course$}{$education.location$}{$education.years$}
+$for(education.details)$
+\begin{itemize}
+  \item $education.details$
+\end{itemize}
+$endfor$
 $endfor$
 
 \section*{Technical Skills}
