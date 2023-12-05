@@ -1,4 +1,5 @@
 ---
+### Personal Details ###
 contact:
   name: John Doe
   address: 123 Noname street, City, Country
@@ -7,23 +8,26 @@ contact:
   website: www.test.com
   github: github.com/johndoe
 
+### Work Section ####  
 work:
   - company: Test Company Ltd
     jobtitle: Engineer
     years: 2016-2018
     location: City1
     details:
-      - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+      - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      - I conducted tests and did tasks.
     
   - company: Test Researcher Ltd
     jobtitle: Researcher
     years: 2014-2016
     location: City2
     details:
-      - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+      - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
+### Education Section ####
 education:
   - institute: University of Test
     course: Phd. in Computing
@@ -39,6 +43,7 @@ education:
     details:
       - Lorem, ipsum, dolor, reprehenderit, consectetur, adipisicing
 
+### Skills Section ####
 skills:
   - type: Skill1
     values: TestA1, TestA2, TestA3
@@ -46,6 +51,9 @@ skills:
     values: TestB1, TestB2, TestB3
   - type: Skill3
     values: TestC1, TestC2, TestC3
+  - type: Skill4
+    values: TestD1, TestD2, TestD3
 
+### Hobbies & Interests ###
 hobbies: Hobbie1, Hobbie2, Hobbie3
 ---
