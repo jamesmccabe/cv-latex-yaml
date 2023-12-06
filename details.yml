@@ -18,6 +18,7 @@ work:
       - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
       - I conducted tests and did tasks.
+      - I answered emails and queries.
     
   - company: Test Researcher Ltd
     jobtitle: Researcher
@@ -34,14 +35,16 @@ education:
     years: 2012-2014
     location: City3
     details:
-      - Lorem, ipsum, dolor, reprehenderit, consectetur, adipisicing
+      - 'Subjects: Lorem, ipsum, dolor, reprehenderit, consectetur, adipisicing'
+      - 'GPA: 3.5/4.0'
 
   - institute: University of Test
     course: Bsc. Science in Computing
     years: 2008-2012
     location: City4
     details:
-      - Lorem, ipsum, dolor, reprehenderit, consectetur, adipisicing
+      - 'Subects: Lorem, ipsum, dolor, reprehenderit, consectetur, adipisicing'
+      - 'GPA: 3.8/4.0'
 
 ### Skills Section ####
 skills:

@@ -1,6 +1,7 @@
 % cv-class.cls
 %
-%
+% Author: James McCabe
+% Class file for `cv.tex'
 %
 %
 
@@ -19,6 +20,7 @@
 
 \RequirePackage{geometry} % manually set page margins
 \RequirePackage{hyperref} % enable hyperlinks and pdf metadata
+\RequirePackage{enumitem} % compact bullet points
 
 % ------------------------------------------------------------------------------
 
@@ -31,13 +33,13 @@
 % new environment for work
 \newenvironment{workentry}[4]{
   \textbf{#1} \hfill {#3}\\
-  \textit{#2} \hfill \textit{#4} \par
+  \textit{#2} \hfill \textit{#4}\par
 }
 
 % new environment for education
 \newenvironment{educationentry}[4]{
   \textbf{#1} \hfill {#3}\\
-  \textit{#2} \hfill \textit{#4} \par
+  \textit{#2} \hfill \textit{#4}\par
 }
 
 % new environment for skills
@@ -45,3 +47,10 @@
   \textbf{#1}: {#2}\par
   }{
 }
+
+% itemize without bullets and use compact spacing
+\newenvironment{educationitem}{
+  \begin{itemize}[label={},leftmargin=0pt]
+    \setlength{\baselineskip}{0pt}
+    \setlength{\parskip}{-6pt}}
+{ \end{itemize}} 
