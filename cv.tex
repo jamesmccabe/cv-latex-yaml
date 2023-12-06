@@ -1,28 +1,42 @@
 %% cv.tex
 %
 % Author: James McCabe
+% License: MIT
 %
-%
+% 
 % requires `cv-class.cls'
+%
 
 \documentclass{cv-class}
 
+% define hyperlink appearance and metadata for pdf properties
+\hypersetup{
+  pdftitle    = {$contact.name$: Curriculum Vitae},
+  pdfauthor   = {$contact.name$},
+  pdfsubject  = {Curriculum Vitae, Résumé},
+  pdfkeywords = {computing, programming, technology},
+  colorlinks  = true,
+  urlcolor    = black,
+  citecolor   = black,
+  linkcolor   = black
+}
+  
 \begin{document}
 
 {\LARGE $contact.name$}\vspace{3px}\\
 $contact.address$\\
 Phone: $contact.phone$\\
-Email: $contact.email$\\
-Website: $contact.website$\\
-Github: $contact.github$
+Email: \href{mailto:$contact.email$}{$contact.email$}\\
+Website: \href{https://$contact.website$}{$contact.website$}\\
+Github: \href{https://$contact.github$}{$contact.github$}
 
 \section*{Work Experience}
 $for(work)$
 \workentry{$work.company$}{$work.jobtitle$}{$work.location$}{$work.years$}
 $for(work.details)$
-\begin{itemize}
+\begin{workitem}
   \item $work.details$
-\end{itemize}
+\end{workitem}
 $endfor$
 $endfor$
 

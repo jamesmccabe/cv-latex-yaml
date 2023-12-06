@@ -1,6 +1,7 @@
 % cv-class.cls
 %
 % Author: James McCabe
+% License: MIT
 % Class file for `cv.tex'
 %
 %
@@ -32,13 +33,13 @@
 
 % new environment for work
 \newenvironment{workentry}[4]{
-  \textbf{#1} \hfill {#3}\\
+  \textbf{#1} \hfill {#3} \vspace{1px}\\
   \textit{#2} \hfill \textit{#4}\par
 }
 
 % new environment for education
 \newenvironment{educationentry}[4]{
-  \textbf{#1} \hfill {#3}\\
+  \textbf{#1} \hfill {#3} \vspace{1px}\\
   \textit{#2} \hfill \textit{#4}\par
 }
 
@@ -48,9 +49,16 @@
   }{
 }
 
-% itemize without bullets and use compact spacing
+% itemize left-aligned without bullets and use compact spacing
 \newenvironment{educationitem}{
   \begin{itemize}[label={},leftmargin=0pt]
     \setlength{\baselineskip}{0pt}
     \setlength{\parskip}{-6pt}}
-{ \end{itemize}} 
+  { \end{itemize}}
+
+% itemize without bullets and use compact spacing
+\newenvironment{workitem}{
+  \begin{itemize}
+    \setlength{\baselineskip}{0pt}
+    \setlength{\parskip}{-4pt}}
+  { \end{itemize}}
