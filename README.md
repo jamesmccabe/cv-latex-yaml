@@ -2,7 +2,7 @@
 My attempt to create my own boilerplate LaTeX/Yaml CV (WIP)
 
 ## Prerequisites
-LaTeX and Pandoc
+LaTeX and Pandoc.
 
 ## Publish PDF
 
