@@ -1,4 +1,7 @@
 ---
+### PDF details
+keywords: computing, programming, technology
+
 ### Personal Details ###
 contact:
   name: John Doe
@@ -11,7 +14,7 @@ contact:
 ### Work Section ####  
 work:
   - company: Test Company Ltd
-    jobtitle: Engineer
+    jobtitle: Test Engineer
     years: 2016-2018
     location: City1
     details:
@@ -27,6 +30,7 @@ work:
     details:
       - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      - I also did this
 
 ### Education Section ####
 education:

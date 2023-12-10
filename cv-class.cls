@@ -13,7 +13,7 @@
 \ProvidesClass{cv-class}[2023/12/04 CV LaTeX class]
 
 % inherit class article
-\LoadClass[a4paper]{article}
+\LoadClass[a4paper,11pt]{article}
 
 %------------------------------------------------------------------------------
 % PACKAGES
@@ -26,7 +26,7 @@
 % ------------------------------------------------------------------------------
 
 % configure page margins
-\geometry{left=2.5cm, top=2.5cm, right=2.5cm, bottom=2.5cm}
+\geometry{left=2.5cm, top=2cm, right=2.5cm, bottom=2cm}
 
 % prevent paragraph indentation
 \setlength{\parindent}{0pt}
@@ -49,16 +49,16 @@
   }{
 }
 
-% itemize left-aligned without bullets and use compact spacing
-\newenvironment{educationitem}{
-  \begin{itemize}[label={},leftmargin=0pt]
-    \setlength{\baselineskip}{0pt}
-    \setlength{\parskip}{-6pt}}
-  { \end{itemize}}
-
 % itemize without bullets and use compact spacing
 \newenvironment{workitem}{
   \begin{itemize}
-    \setlength{\baselineskip}{0pt}
-    \setlength{\parskip}{-4pt}}
-  { \end{itemize}}
+    \setlength{\parskip}{-8pt}
+  }{
+  \end{itemize}}
+
+% itemize left-aligned without bullets and use compact spacing
+\newenvironment{educationitem}{
+  \begin{itemize}[label={},leftmargin=0pt]
+    \setlength{\parskip}{-10pt}
+  }{
+  \end{itemize}}
