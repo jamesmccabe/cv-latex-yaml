@@ -24,6 +24,7 @@
 \RequirePackage{hyperref} % enable hyperlinks and pdf metadata
 \RequirePackage{enumitem} % compact bullet points
 \RequirePackage{setspace} % custom line spacing
+\RequirePackage{color}    % custom colors in LaTeX
 
 % ------------------------------------------------------------------------------
 
@@ -67,3 +68,12 @@
     \setlength{\parskip}{-10pt}
   }{
   \end{itemize}}
+
+\definecolor{urlcolor}{rgb}{0,0.2,0.6}
+
+\hypersetup{
+  colorlinks  = true,
+  urlcolor    = urlcolor,
+  citecolor   = black,
+  linkcolor   = black
+}
