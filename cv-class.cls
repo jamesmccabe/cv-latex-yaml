@@ -1,9 +1,10 @@
 % cv-class.cls
 %
 % Author: James McCabe
+% URL: https://github.com/jamesmccabe/cv-latex-yaml
 % License: MIT
+% 
 % Class file for `cv.tex'
-%
 %
 
 %------------------------------------------------------------------------------
@@ -22,6 +23,7 @@
 \RequirePackage{geometry} % manually set page margins
 \RequirePackage{hyperref} % enable hyperlinks and pdf metadata
 \RequirePackage{enumitem} % compact bullet points
+\RequirePackage{setspace} % custom line spacing
 
 % ------------------------------------------------------------------------------
 
@@ -30,6 +32,9 @@
 
 % prevent paragraph indentation
 \setlength{\parindent}{0pt}
+
+% set line spacing
+\setstretch{1.1}
 
 % new environment for work
 \newenvironment{workentry}[4]{
