@@ -1,4 +1,4 @@
-% cv-class.cls
+%% cv-class.cls
 %
 % Author: James McCabe
 % URL: https://github.com/jamesmccabe/cv-latex-yaml
@@ -26,6 +26,8 @@
 \RequirePackage{setspace} % custom line spacing
 \RequirePackage{color}    % custom colors in LaTeX
 
+%------------------------------------------------------------------------------
+% PAGE LAYOUT
 % ------------------------------------------------------------------------------
 
 % configure page margins
@@ -35,7 +37,11 @@
 \setlength{\parindent}{0pt}
 
 % set line spacing
-\setstretch{1.1}
+\setstretch{1.0}
+
+%------------------------------------------------------------------------------
+% ENVIRONMENTS
+%------------------------------------------------------------------------------
 
 % new environment for work
 \newenvironment{workentry}[4]{
@@ -69,11 +75,13 @@
   }{
   \end{itemize}}
 
-\definecolor{urlcolor}{rgb}{0,0.2,0.6}
+%------------------------------------------------------------------------------
+
+\definecolor{urlcolor}{rgb}{0.1,0.2,0.6}
 
 \hypersetup{
   colorlinks  = true,
   urlcolor    = urlcolor,
-  citecolor   = black,
-  linkcolor   = black
+  citecolor   = urlcolor,
+  linkcolor   = urlcolor
 }
