@@ -47,8 +47,8 @@ education:
     years: 2008-2012
     location: City4
     details:
-      - 'Subects: Lorem, ipsum, dolor, reprehenderit, consectetur, adipisicing'
-      - 'GPA: 3.8/4.0'
+      - 'Subjects: Lorem, ipsum, dolor, reprehenderit, consectetur, adipisicing'
+      - 'Result: Merit'
 
 ### Skills Section ####
 skills:
