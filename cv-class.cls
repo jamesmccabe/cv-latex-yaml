@@ -48,6 +48,9 @@
 % ENVIRONMENTS
 %------------------------------------------------------------------------------
 
+% new environment for name
+
+
 % new environment for work
 \newenvironment{workentry}[4]{
   \textbf{#1} \hfill {#3} \vspace{1px}\\

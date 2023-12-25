@@ -22,12 +22,19 @@
   
 \begin{document}
 
+\raggedright
 {\LARGE $contact.name$}\\[0.2cm]
 $contact.address$\\
-Phone: $contact.phone$\\
-Email: \href{mailto:$contact.email$}{$contact.email$}\\
-Website: \href{https://$contact.website$}{$contact.website$}\\
-Github: \href{https://$contact.github$}{$contact.github$}
+
+\begin{minipage}[t]{0.6\textwidth}
+  Phone: $contact.phone$\\
+  Email: \href{mailto:$contact.email$}{$contact.email$}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+  Website: \href{https://$contact.website$}{$contact.website$}\\
+  Github: \href{https://$contact.github$}{$contact.github$}
+\end{minipage}
 
 \section*{Work Experience}
 $for(work)$
