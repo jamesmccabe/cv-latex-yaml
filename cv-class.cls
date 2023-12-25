@@ -25,6 +25,7 @@
 \RequirePackage{enumitem} % compact bullet points
 \RequirePackage{setspace} % custom line spacing
 \RequirePackage{color}    % custom colors in LaTeX
+\RequirePackage{titlesec} % Custom section spacing
 
 %------------------------------------------------------------------------------
 % PAGE LAYOUT
@@ -38,6 +39,10 @@
 
 % set line spacing
 \setstretch{1.0}
+
+% custom section spacing
+\RequirePackage{titlesec} % Custom section spacing
+\titlespacing{\section}{0pt}{8pt plus 4pt minus 4pt}{8pt plus 2pt minus 2pt}
 
 %------------------------------------------------------------------------------
 % ENVIRONMENTS
