@@ -10,6 +10,7 @@
 %------------------------------------------------------------------------------
 % IDENTIFICATION
 %------------------------------------------------------------------------------
+
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{cv-class}[2023/12/04 CV LaTeX class]
 
@@ -45,11 +46,15 @@
 \titlespacing{\section}{0pt}{8pt plus 4pt minus 4pt}{8pt plus 2pt minus 2pt}
 
 %------------------------------------------------------------------------------
-% ENVIRONMENTS
+% FONTS
 %------------------------------------------------------------------------------
 
-% new environment for name
+\usepackage[OT1]{fontenc}
+\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
 
+%------------------------------------------------------------------------------
+% ENVIRONMENTS
+%------------------------------------------------------------------------------
 
 % new environment for work
 \newenvironment{workentry}[4]{
