@@ -22,9 +22,8 @@
   
 \begin{document}
 
-\raggedright
 {\LARGE $contact.name$}\\[0.2cm]
-$contact.address$\\
+$contact.address$
 
 \begin{minipage}[t]{0.6\textwidth}
   Phone: $contact.phone$\\
@@ -32,8 +31,10 @@ $contact.address$\\
 \end{minipage}%
 \hfill
 \begin{minipage}[t]{0.4\textwidth}
-  Website: \href{https://$contact.website$}{$contact.website$}\\
-  Github: \href{https://$contact.github$}{$contact.github$}
+  \begin{flushright}
+    Website: \href{https://$contact.website$}{$contact.website$}\\
+    Github: \href{https://$contact.github$}{$contact.github$}
+  \end{flushright}
 \end{minipage}
 
 \section*{Work Experience}
