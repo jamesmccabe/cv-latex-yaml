@@ -52,14 +52,14 @@ education:
 
 ### Skills Section ####
 skills:
-  - type: Skill1
+  - type: Skill111
     values: TestA1, TestA2, TestA3
   - type: Skill2
     values: TestB1, TestB2, TestB3
-  - type: Skill3
+  - type: Skill333
     values: TestC1, TestC2, TestC3
   - type: Skill4
-    values: TestD1, TestD2, TestD3
+    values: TestD1, TestD2, TestD3, TestD4
 
 ### Hobbies & Interests ###
 hobbies: Hobby1, Hobby2, Hobby3

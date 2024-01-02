@@ -9,7 +9,7 @@
 
 \documentclass{cv-class}
 
-% define hyperlink appearance and metadata for pdf properties
+% define pdf metadata
 \hypersetup{
   pdftitle    = {$contact.name$: Curriculum Vitae},
   pdfauthor   = {$contact.name$},
@@ -22,12 +22,12 @@
 {\LARGE $contact.name$}\\[0.2cm]
 $contact.address$
 
-\begin{minipage}[t]{0.6\textwidth}
+\begin{minipage}[t]{0.5\textwidth}
   Phone: $contact.phone$\\
   Email: \href{mailto:$contact.email$}{$contact.email$}
 \end{minipage}%
 \hfill
-\begin{minipage}[t]{0.4\textwidth}
+\begin{minipage}[t]{0.5\textwidth}
   \begin{flushright}
     Website: \href{https://$contact.website$}{$contact.website$}\\
     Github: \href{https://$contact.github$}{$contact.github$}
@@ -55,9 +55,11 @@ $endfor$
 $endfor$
 
 \section*{Technical Skills}
-$for(skills)$
-\skillsentry{$skills.type$}{$skills.values$}
-$endfor$
+\begin{tabular}{@{}p{1.25cm}p{10cm}} % adjust measurements to text widths
+  $for(skills)$
+  \skillsentry{$skills.type$}{$skills.values$}
+  $endfor$
+\end{tabular}
 
 \section*{Hobbies \& Interests}
 $hobbies$
