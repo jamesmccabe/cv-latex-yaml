@@ -2,7 +2,11 @@
 My attempt to create my own boilerplate LaTeX/Yaml CV (WIP)
 
 ## Prerequisites
-LaTeX and Pandoc. I install TexLive and Pandoc on Ubuntu.
+LaTeX and Pandoc. I install TexLive and Pandoc on Ubuntu 22.04.
+
+```bash
+sudo apt install texlive
+```
 
 ```bash
 sudo apt install pandoc
