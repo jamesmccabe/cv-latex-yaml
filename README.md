@@ -27,5 +27,5 @@ pandoc details.yml -o cv.pdf --template=cv.tex --pdf-engine=pdflatex
 ## License
 MIT. See [License](LICENSE).
 
-[latex-link]: https://www.latex.com
-[pandoc-link]: https://www.latex-project.org/
+[latex-link]: https://www.latex-project.org/
+[pandoc-link]: https://pandoc.org/ 
