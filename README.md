@@ -8,7 +8,7 @@ My attempt to create my own boilerplate LaTeX/Yaml CV (WIP)
 [LaTeX][latex-link] and [Pandoc][pandoc-link]. I install TexLive and Pandoc on Ubuntu 22.04.
 
 ```bash
-sudo apt install texlive
+sudo apt install texlive-latex-extra
 ```
 
 ```bash
@@ -28,4 +28,4 @@ pandoc details.yml -o cv.pdf --template=cv.tex --pdf-engine=pdflatex
 MIT. See [License](LICENSE).
 
 [latex-link]: https://www.latex.com
-[pandoc-link]: https://www.pandoc.com
+[pandoc-link]: https://www.latex-project.org/
