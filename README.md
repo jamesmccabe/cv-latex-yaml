@@ -1,5 +1,5 @@
 # cv-latex-yaml
-My attempt to create my own boilerplate LaTeX/Yaml CV (WIP)
+My attempt to create my own boilerplate LaTeX/Yaml Curriculum Vitae (CV) (WIP)
 
 > [!CAUTION]
 > This is still a work in progress...
