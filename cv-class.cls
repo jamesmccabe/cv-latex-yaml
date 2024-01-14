@@ -25,7 +25,7 @@
 \RequirePackage{setspace} % custom line spacing
 \RequirePackage{enumitem} % compact bullet points
 \RequirePackage{color}    % custom colors in LaTeX
-\RequirePackage{titlesec} % Custom section spacing
+\RequirePackage{titlesec} % custom section spacing
 \RequirePackage{hyperref} % enable hyperlinks and pdf metadata
 
 %------------------------------------------------------------------------------
@@ -42,7 +42,6 @@
 \setstretch{1.0}
 
 % custom section spacing
-\RequirePackage{titlesec} % Custom section spacing
 \titlespacing{\section}{0pt}{8pt}{8pt}
 
 %------------------------------------------------------------------------------
